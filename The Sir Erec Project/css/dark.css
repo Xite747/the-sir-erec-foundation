@@ -1,0 +1,464 @@
+.parallax {
+    background-image: url("https://cdn.discordapp.com/attachments/494840325324537862/506521436886794250/The_Sir_Erec_Foundation_Header.png");
+    min-height: 175px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+        max-height: 175px;
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: Helvetica,sans-serif;
+    font-size: 1.05em;
+    background-color: #111;
+}
+
+div#footer {
+    padding: 10px;
+    color: white;
+    background-color: #724db7;
+}
+
+
+div.article {
+    margin: 5px;
+    padding: 10px;
+    background-color: #111;
+}
+
+
+
+a:link {text-decoration:none;
+
+}
+
+div.zoom {
+    background-color: #111;
+}
+
+p.normal {border: 2px solid black;
+    border-radius: 4px;
+	margin: 5px;
+	text-align:center;
+
+}
+
+div#img {
+    width:100%;
+	float:center;
+	width:1250px;
+	heigth:500px;
+
+}
+
+
+button.button1 {
+  background-color: #724db7;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.button1:hover {opacity: 1}
+
+button.button2 {
+  background-color: #724db7;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+
+}
+
+.button2:hover {opacity: 1}
+
+a.style1 {
+         color:#724db7;
+}
+
+
+div#menu ul {
+    padding: 0;
+}
+
+
+
+div#menu ul li {
+    display: inline;
+    margin: 5px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #444;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: red;
+    color: black;
+    padding: 7px 10px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #724db7;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #111;
+    padding: 20px;
+}
+
+ul.gtav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #724db7;
+}
+
+button.button9 {
+    background-color: #724db7
+    border: none;
+	border-radius:12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+button.button11 {
+    background-color: #724db7;
+    border: none;
+	border-radius:12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+button.button12 {
+    background-color: #724db7
+    border: none;
+	border-radius:12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444
+}
+
+::-moz-selection {
+  color: black;
+  background: white;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform : scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.zoom2 {
+  transition: transform .2s;
+}
+
+.zoom2:hover {
+  -ms-transform : scale(2.3);
+  -webkit-transform: scale(2.3);
+  transform: scale(2.3);
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #724db7;
+    color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  background-color: #111;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #724db7;
+    color: white;
+}
+
+@media screen and (max-width: 481px) {
+
+#main, #subnav{  
+
+  float: left;
+  padding:0;
+  width: 94%;    
+  margin: 3%;    
+
+
+}
+
+#subnav dt{  
+  padding: 0;
+  margin-top:0;
+}
+
+#subnav{
+  border-right: 1px dotted #aaa;
+  border-bottom: 1px dotted #aaa;  
+}
+
+#logo {
+  font-size 45px;
+}
+
+
+#menu{
+  text-align: center;   
+  padding:0;
+}
+
+
+#menu li{                      
+  display: inline-block;
+  margin: 1.25% .5% 1.25% .5%;
+  border-left: 0;
+  padding: 1%;
+  border: 1px solid white;  
+}
+
+
+#menu li a {
+  color: white;                 
+  text-decoration: none;
+}
+
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.glow {
+  font-size: 50px;
+  color: #fff;
+  text-align:center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease.in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 10px #ff2205, 0 0 20px #ff2205, 0 0 30px #ff2205, 0 0 40px #ff2205, 0 0 50px #ff2205;
+  }
+  to {
+    text-shadow: 0 0 2.5px #fff, 0 0 5px #694ba1, 0 0 10px #694ba1, 0 0 20px #694ba1, 0 0 60px #694ba1, 0 0 70px #694ba1, 0 0 80px #694ba1;
+  }
+}

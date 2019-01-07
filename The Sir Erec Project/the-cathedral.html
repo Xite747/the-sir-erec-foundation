@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<title>The Cathedral</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/494840325324537862/507961944263753739/Erec_The_XVIII.png">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: Maximilian;}
+body, html {
+    height: 100%;
+    color: #444;
+    line-height: 1.8;
+    background-color: #000
+}
+
+@font-face {
+    font-family: Maximilian;
+    src: url("fonts/Maximilian.ttf")
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('http://pre11.deviantart.net/3cd8/th/pre/f/2013/092/7/3/haven_interior_by_kuroe702-d609e7w.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("https://i.ytimg.com/vi/nt99j1OsbEA/maxresdefault.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("http://wallpapermad.com/wp-content/uploads/2016/08/dark-angel-wallpaper-HD1.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444
+}
+
+::-moz-selection {
+  color: black;
+  background: white;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+#home {
+  height: 0px;
+}
+
+#footer {
+  height: 0px;
+}
+
+div.article {
+  margin: 5px;
+  padding: 10px;
+}
+
+</style>
+<body>
+<div class="main" id="home"></div>
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">THE <span class="w3-hide-small">CATHEDRAL </span>
+  </div>
+</div>
+<font color="white">
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">EREC THE XVIII</h3>
+  <p class="w3-center"><em>Our All Powerful And All Mighty God</em></p>
+  <p>Long ago there was a mighty being known as Erec The XVIII. He used to be a normal boy until the demons came to his village and devoured all of the inhabitants including his dear sister. After this mighty carnage, he had experienced he saw a truly horrifying truth.
+  He was the only survivor, even his dear village was flattened to the ground like nothing even had ever been there, not even trees or grass. Just grief, hatred and despair..</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b>Erec The XVIII</b></p><br>
+      <img src="https://cdn.discordapp.com/attachments/494840325324537862/507961944263753739/Erec_The_XVIII.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="400" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>After this horrible experience our All Mighty God Erec The XVIII set out on a great journey to become the God we know, love and worship today. His journey wasn't easy and it was filled with hatred, anger, sadness, disparity amongst the people which lit wars and chaos
+      throughout the realm he resided in. He got stronger and stronger every day, and finally the day he had been training for dozens of years now had finally come at last. He set out to fight the Demon Gods who were responsible for the deaths of millions of innocent peasants.
+      He fought bravely and valiantly like a warrior of the true Legendary Heros of the 7 Legendary Scrolls. The fight had exhausted him greatly to the brink of death. The people believed in his might and right before his ascension to heaven his home he cried out to the people.</p>
+    </div>
+    <div class="article">
+      <p style="text-align:center;"><b>Thou people of mine realm heed the words of God I shalt lay upon you. I have slain this evil from our holy land. For thou shalt remember I as Erec The XVIII, The Mighty God who saved your souls from these snakes. And thou shalt Rejoice this day every year to remember the God of your land.
+      Thou shalt write a religious text of I and praise it, you shall also believe in and pray to I and I shall give you my blessing. For now, I must ascend to heaven but remember, one day 2 great heroes shall rise to make I known to the world again. Do not forget this, live by me and you shall be saved.</b></p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Erec The XVIII Is:</p>
+  <p class="w3-wide">Merciful and Forgiving</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
+  </div>
+  <p class="w3-wide">Omnipotent</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:117%"><a href="https://sirerec.tumblr.com/wonderful-suckys-from-haro" style="color:red"><b>ERROR: 404</b></a></div>
+  </div>
+  <p class="w3-wide">A Loving God</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">700+</span><br>
+    Churches
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">700 Million+</span><br>
+    Religious Scrolls
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">500 Million+</span><br>
+    Believers
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">-7</span><br>
+    Victims
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">The Followers</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">The Believers Of Erec The XVIII</h3>
+  <p class="w3-center"><em>All of them were saved by the Loving God Erec.<br> They were truly fortunate.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="https://cdn.discordapp.com/attachments/494840325324537862/506974419772637197/Untitled-1.jpg" width="200" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="Just Look at that Smile and it's all thanks to Erec.">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://cdn.discordapp.com/attachments/494840325324537862/507123399294713876/20181031_112630.jpg" width="200" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="And him too just look at the great things Erec has saved.">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://cdn.discordapp.com/attachments/494840325324537862/507992624217456652/20181031_121534.jpg" width="200" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="Truly pure and heavenly joy Erec brings to this world.">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://cdn.discordapp.com/attachments/494840325324537862/507974821909364739/Screenshot_312.png" width="200" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="Even he became happy and religious after Erec showed him the light.">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">Do You Believe?</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Headquarters</h3>
+  <p class="w3-center"><em>We'd love if you visit <b>>:^)!</b></em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="https://cdn.discordapp.com/attachments/494840325324537862/509769704290648065/PicsArt_11-06-07.20.45.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Helsinki, Fi<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: <i>Pray to Erec and we will know.</i><br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: Emails are unneccacary.<br>
+      </div>
+      <p>Swing by for a fun time or leave us your credit card details:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name on Card" required name="Name on Card: Jack Apple Man">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Expiration Date" required name="Expiration Date: January, 2020">
+          </div>
+        </div>
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Card Number" required name="Card Number: 2158245658472497">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="CVC" required name="CVC: 743">
+          </div>
+        </div>
+        <button class="w3-button w3-black w3-right w3-section" type="submit" onclick="passWord()">
+          PAY US SUPER SECURELY <i class="fa fa-check"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<audio autoplay loop style="display:none">
+  <source src="music/Libera_me_Domine.ogg" type="audio/ogg">
+</audio>
+<div class="article">
+<div id="disqus_thread"></div>
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Do You Wish To Enter The Garden of Eden Brother?',' ');
+while (testV < 3) {
+if (!pass1)
+history.go(-1);
+if (pass1.toLowerCase() == "in_nominee_patris_et_filii_et_spiritus_sancti") {
+alert('Congratulations Brother You Have Almost Finished Your Quest!');
+window.open('thesirerecfoundation.tk');
+break;
+}
+testV+=1;
+var pass1 =
+prompt('In a rush to pray? No no no, come back when you know the true meaning of light Brother. We shall wait.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3)
+history.go(-1);
+return " ";
+}
+</SCRIPT>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = https://thesirerecfoundation.tk;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://erec.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+<!-- Footer -->
+<div class="main" id="footer">
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-youtube w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+  </div>
+  <p>&copy; 2018 The Sir Erec Foundation. All Rights Reserved. <a href="https://en.wikipedia.org/wiki/Copyright" title="Copyright" target="_blank" class="w3-hover-text-red">Read More.</a></p>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// auto fullscreen
+function launchFullScreen(element) {
+  if(element.requestFullScreen) {
+    element.requestFullScreen();
+  } else if(element.mozRequestFullScreen) {
+    element.mozRequestFullScreen();
+  } else if(element.webkitRequestFullScreen) {
+    element.webkitRequestFullScreen();
+  }
+}
+
+// Launch fullscreen for browsers that support it!
+launchFullScreen(document.documentElement); // the whole page
+launchFullScreen(document.getElementById("videoElement")); // any individual element
+
+addEventListener("click", function() {
+    var
+          el = document.documentElement
+        , rfs =
+               el.requestFullScreen
+            || el.webkitRequestFullScreen
+            || el.mozRequestFullScreen
+    ;
+    rfs.call(el);
+});
+</script>
+
+</body>
+</html>
